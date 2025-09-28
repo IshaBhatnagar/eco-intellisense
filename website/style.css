@@ -1,0 +1,38 @@
+/* 🌿 Custom styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar button style */
+.nav-link {
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #22c55e; /* Tailwind green-500 */
+  color: white;
+}
+
+/* Gradient background for hero section */
+.gradient-bg {
+  background: linear-gradient(135deg, #22c55e, #15803d);
+}
+
+
+/* 🌿 Style login button */
+button[type="submit"] {
+  background-color: #22c55e; /* green-500 */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #15803d; /* darker green */
+}
